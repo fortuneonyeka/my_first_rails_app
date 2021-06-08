@@ -1,0 +1,31 @@
+remote: Compressing source files... done.        
+remote: Building source:        
+remote: 
+remote: -----> Building on the Heroku-20 stack        
+remote: -----> Using buildpack: https://github.com/bundler/heroku-buildpack-bundler2        
+remote: -----> Ruby app detected        
+remote: /tmp/codon/tmp/buildpacks/39f112f50b07a72959c8a346ce561f7cb404a86c/bin/compile: line 3: heroku/ruby: No such file or directory        
+remote: This buildpack is no longer supported, please use  which now supports Bundler 2 directly        
+remote:  !     Push rejected, failed to compile Ruby app.        
+remote: 
+remote:  !     Push failed        
+remote:  !        
+remote:  ! ## Warning - The same version of this code has already been built: 0daf402d57a4a8ab4c3ad2e2ae719cc5f65569d2        
+remote:  !        
+remote:  ! We have detected that you have triggered a build from source code with version 0daf402d57a4a8ab4c3ad2e2ae719cc5f65569d2        
+remote:  ! at least twice. One common cause of this behavior is attempting to deploy code from a different branch.        
+remote:  !        
+remote:  ! If you are developing on a branch and deploying via git you must run:        
+remote:  !        
+remote:  !     git push heroku <branchname>:main        
+remote:  !        
+remote:  ! This article goes into details on the behavior:        
+remote:  !   https://devcenter.heroku.com/articles/duplicate-build-version        
+remote: 
+remote: Verifying deploy...
+remote: 
+remote: !	Push rejected to fierce-basin-62189.        
+remote: 
+To https://git.heroku.com/fierce-basin-62189.git
+ ! [remote rejected] master -> master (pre-receive hook declined)
+error: failed to push some refs to 'https://git.heroku.com/fierce-basin-62189.git'
